@@ -107,8 +107,6 @@ const About: React.FC = () => (
       </AboutSection>
       <AboutSection full title="Bio">
         <div className="px-4 text-justify pb-4">
-          Hello! Thanks for checking out my personal page.
-          <br />
           Web developer from Portugal with 10+ years of experience.
           <br />
           Worked across different areas and companies of different sizes (from
@@ -129,8 +127,6 @@ const About: React.FC = () => (
           <br />
           If you want to reach out to me, please feel free to use any of my
           social links above.
-          <br />
-          Have a nice day!
         </div>
       </AboutSection>
     </div>
