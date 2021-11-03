@@ -63,7 +63,7 @@ const About: React.FC = () => (
               icon={faTwitter}
             />
           </a>
-          <a href="/Bernardo Cotrim CV.pdf" target="_blank" rel="noreferrer">
+          <a href="/BernardoCotrimCV.pdf" target="_blank" rel="noreferrer">
             <FontAwesomeIcon
               className="text-gray-300 text-3xl lg:text-xl"
               icon={faFilePdf}
