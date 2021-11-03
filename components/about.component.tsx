@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  faFilePdf,
   faHeadphones,
   faKeyboard,
   faMouse,
@@ -43,7 +44,7 @@ const About: React.FC = () => (
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/bernardo-cotrim-885b6840/"
+            href="https://www.linkedin.com/in/bcotrim/"
             target="_blank"
             rel="noreferrer"
           >
@@ -60,6 +61,12 @@ const About: React.FC = () => (
             <FontAwesomeIcon
               className="text-gray-300 text-3xl lg:text-xl"
               icon={faTwitter}
+            />
+          </a>
+          <a href="/Bernardo Cotrim CV.pdf" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon
+              className="text-gray-300 text-3xl lg:text-xl"
+              icon={faFilePdf}
             />
           </a>
         </div>
@@ -102,8 +109,18 @@ const About: React.FC = () => (
         <div className="px-4 text-justify pb-4">
           Hello! Thanks for checking out my personal page.
           <br />
-          I&apos;m a web developer from Portugal passionate about using my
-          coding skills to make an impact in people&apos;s lives.
+          Web developer from Portugal with 10+ years of experience.
+          <br />
+          Worked across different areas and companies of different sizes (from
+          enterprise-level to startups).
+          <br />
+          I value teamwork and firmly believe everyone is at their best when
+          collaborating and sharing knowledge with others. I try to lead by
+          example and promote healthy and fruitful discussions.
+          <br />
+          My goal is to continue to help companies and people grow, I love to be
+          a part of something that can impact people&apos;s lives for the
+          better!
           <br />
           I have experience in different areas and with teams of different sizes
           and experience and I enjoyed every bit of it! I consider myself a team
