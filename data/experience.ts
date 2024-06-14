@@ -9,30 +9,30 @@ export type Experience = {
 
 export const EXPERIENCES: Experience[] = [
   {
-    companyLogo: "/ngtacademy.png",
-    title: "Director of Engineer",
-    startDate: "05/2021",
-    description:
-      "Leading the development team to support the existing LMS platform and build a new project. Analyzing and advising for other technical initiatives for NexGenT's internal teams",
+    companyLogo: "/automattic.png",
+    title: "Senior Software Engineer",
+    startDate: "02/2022",
+    description: "Part of the Support Operations development team",
     responsabilities: [
-      "improving the existing workflow according to SCRUM's best practices",
-      "tracking and analyzing team metrics",
-      "improving the existing recruitment workflow",
-      "screening and interviewing candidates",
-      "discussing and defining the product solution with the team",
-    ],
+      "Enhanced company support workflow through strategic improvements to existing tools, with a primary focus on the scheduling tool",
+      "Spearheaded the development of automation solutions resulting in substantial cost reduction and optimized resource allocation, enabling enhanced focus on high-impact projects.",
+      "Updated the existing code base to follow company standards regarding development tools, transitioning from Flow to Typescript.",
+      "Leveraged technologies such as React, Typescript, PHP, and Python to develop and enhance support tools and automation solutions."
+    ]
   },
   {
     companyLogo: "/ngtacademy.png",
-    title: "Frontend Developer",
+    title: "Lead Software Engineer",
     startDate: "12/2016",
+    endDate: "01/2022",
     description:
-      "Part of NexGenT's frontend team for the development of the online LMS that allows students to take courses, keep track of their progress, and engage with NexGenT's team of mentors.",
+      "Leading the development team to support the existing LMS platform and build a new project. Analyzing and advising for other technical initiatives for NexGenT's internal teams",
     responsabilities: [
-      "Defining the technical approach and solution",
-      "Development and testing of the features according to the designs",
-      "Automated testing",
-      "Code review and feedback to peers.",
+      "Led the development team, overseeing support for the existing Learning Management System (LMS) platform, and providing guidance on technical initiatives.",
+      "Implemented SCRUM best practices to improve workflow efficiency and monitored team metrics for continuous improvement.",
+      "Streamlined recruitment processes, including candidate screening and interviews.",
+      "Collaborated with the team to define product solutions and played a key role in frontend development for the online LMS.",
+      "Responsible for technical strategy and solution definition, as well as feature development and testing using technologies such as React, Typescript, and AWS Serverless.Conducted code reviews and provided feedback to peers to maintain high-quality standards.",
     ],
   },
   {
