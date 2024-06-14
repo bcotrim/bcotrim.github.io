@@ -1,4 +1,5 @@
 import { IconDefinition } from "@fortawesome/fontawesome-common-types";
+import { Icon } from "@fortawesome/fontawesome-svg-core";
 import {
   faChild,
   faHandPaper,
@@ -29,13 +30,13 @@ const EquipmentSlot: React.FC<Props> = ({ slot, icon, label }) => (
   <div className="text-base text-gray-300 flex flex-row">
     <span className="w-10 text-center">
       <FontAwesomeIcon
-        icon={SlotMap[slot].icon}
+        icon={SlotMap[slot].icon as Icon}
         className={`text-lg mr-1 text-gray-500 ${SlotMap[slot].class}`}
       />
     </span>
     <span className="w-2 text-left">:</span>
     <span className="w-10 text-center">
-      <FontAwesomeIcon icon={icon} className="text-lg mr-1 text-gray-300" />
+      <FontAwesomeIcon icon={icon as Icon} className="text-lg mr-1 text-gray-300" />
     </span>
     <span>{label}</span>
   </div>

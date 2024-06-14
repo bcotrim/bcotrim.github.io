@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AboutSection, Experience } from ".";
+import { Experience } from ".";
 import { EXPERIENCES } from "../data/experience";
 
 const Work: React.FC = () => (

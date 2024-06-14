@@ -19,6 +19,7 @@ import {
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { Icon } from "@fortawesome/fontawesome-svg-core";
 
 const About: React.FC = () => (
   <section
@@ -40,7 +41,7 @@ const About: React.FC = () => (
           <a href="https://github.com/bcotrim" target="_blank" rel="noreferrer">
             <FontAwesomeIcon
               className="text-gray-300 text-3xl lg:text-xl"
-              icon={faGithub}
+              icon={faGithub as Icon}
             />
           </a>
           <a
@@ -50,7 +51,7 @@ const About: React.FC = () => (
           >
             <FontAwesomeIcon
               className="text-gray-300 text-3xl lg:text-xl"
-              icon={faLinkedin}
+              icon={faLinkedin as Icon}
             />
           </a>
           <a
@@ -60,13 +61,13 @@ const About: React.FC = () => (
           >
             <FontAwesomeIcon
               className="text-gray-300 text-3xl lg:text-xl"
-              icon={faTwitter}
+              icon={faTwitter as Icon}
             />
           </a>
           <a href="/BernardoCotrimCV.pdf" target="_blank" rel="noreferrer">
             <FontAwesomeIcon
               className="text-gray-300 text-3xl lg:text-xl"
-              icon={faFilePdf}
+              icon={faFilePdf as Icon}
             />
           </a>
         </div>

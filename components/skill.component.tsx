@@ -4,7 +4,7 @@ import useOnScreen from "../utils/use.on.screen";
 
 type Props = { skill: Skill };
 
-const Skill: React.FC<Props> = ({ skill: { icon, value, title } }) => {
+const SkillComponent: React.FC<Props> = ({ skill: { icon, value, title } }) => {
   const ref = useRef<HTMLElement>(null);
   const isVisible = useOnScreen<HTMLElement>(ref);
 
@@ -26,4 +26,4 @@ const Skill: React.FC<Props> = ({ skill: { icon, value, title } }) => {
   );
 };
 
-export default React.memo(Skill);
+export default React.memo(SkillComponent);

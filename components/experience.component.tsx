@@ -5,7 +5,7 @@ type Props = {
   experience: Experience;
 };
 
-const Experience: React.FC<Props> = ({ experience }) => (
+const ExperienceComponent: React.FC<Props> = ({ experience }) => (
   <>
     <div
       className={
@@ -40,4 +40,4 @@ const Experience: React.FC<Props> = ({ experience }) => (
   </>
 );
 
-export default React.memo(Experience);
+export default React.memo(ExperienceComponent);
